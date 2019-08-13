@@ -27,6 +27,7 @@ There are four Python script files used in this project.<br>
 
 ## Result
 Diagram below illustrates the relationships between number of trees and performance of the algorithm. 
+* This is a multi class classification problem, and there are 8 class in total.
 <p align="center">
   <img src="https://github.com/SelinaWu/insurance_risks_prediction-/blob/master/RF_result.png">
 </p>
