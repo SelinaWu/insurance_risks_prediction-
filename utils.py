@@ -17,6 +17,9 @@ class random_forest():
         :param n_trees: int, the number of trees per cross-validation
         :param n_features: int, the number of features
         :param test_ratio: float, the ratio of training data in original data
+        The code is modified from the code by Siraj Raval
+        https://github.com/llSourcell/random_forests/blob/master/Random%20Forests%20.ipynb
+
         '''
         self.test_ratio = test_ratio
         self.train_data = train_data.ix[:int(len(train_data) * test_ratio), 1:].values
