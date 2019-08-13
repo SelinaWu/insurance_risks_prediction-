@@ -17,6 +17,7 @@ The diagram below illustrates the results of PCA performed on the imputed traini
   <img src="https://github.com/SelinaWu/insurance_risks_prediction-/blob/master/PCA.png">
 </p>
 
+
 ## Data pipeline
 There are four Python script files used in this project.<br>
     `utils.py`: contains various class definitions and auxiliary functions<br>
@@ -24,7 +25,16 @@ There are four Python script files used in this project.<br>
     `data_classification.py`: can be exeucted with command `python3 DataClassification.py`. Perform data classifications based on imputed datasets.<br>
     `predict_dataset.py`: can be exeucted with command `python3 PredictDataset.py`. This script takes 'testing_result.csv' (the complete, or imputed, testing set) as input and uses 'trained_trees.pkl' file (contains the trained model) so that the classification can be performed on this new complete testing set very quickly.<br>
 
-
+## Result
+Diagram below illustrates the relationships between number of trees and performance of the algorithm. 
+<p align="center">
+  <img src="https://github.com/SelinaWu/insurance_risks_prediction-/blob/master/RF_result.png">
+</p>
+Below are parameters we used in the random forest tree algorithm:<br>
+n_folds = 5 max_depth = 10 min_size = 1 <br>
+sample_size = 1.0 n_trees = 10 n_features= 40 <br>
+test_ratio = 0.8 
+ 
 ## Libraries
 
 External libraries directly used:<br>
