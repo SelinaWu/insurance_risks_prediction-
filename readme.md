@@ -18,7 +18,7 @@ The diagram below illustrates the results of PCA performed on the imputed traini
 </p>
 
 ## Data pipeline
-There are four Python script files used in this project.
+There are four Python script files used in this project.<br>
     `utils.py`: contains various class definitions and auxiliary functions<br>
     `data_preprocess.py`: can be executed with command `python3 DataPreprocess.py`. Perfrom data cleaning on both training and testing datasets.<br>
     `data_classification.py`: can be exeucted with command `python3 DataClassification.py`. Perform data classifications based on imputed datasets.<br>
@@ -27,12 +27,12 @@ There are four Python script files used in this project.
 
 ## Libraries
 
-External libraries directly used:
+External libraries directly used:<br>
     numpy==1.14.2<br>
     pandas==0.22.0<br>
     scipy==1.0.1<br>
 
-Other external library dependencies:
+Other external library dependencies:<br>
     cycler==0.10.0<br>
     kiwisolver==1.0.1<br>
     matplotlib==2.2.2<br>
